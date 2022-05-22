@@ -1,0 +1,22 @@
+{
+  "name": "guvi-blog",
+  "version": "1.0.0",
+  "description": "Server for Guvi Blog Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Tamilselvan Sekar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.6.0"
+  }
+}
